@@ -1,0 +1,104 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+    background-color: #C7BCA1;
+}
+h1{
+    font-family: 'Libre Baskerville', serif;
+    color: #404258;
+}
+.container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #8B7E74;
+    height: 700px;
+    width: 700px;
+}
+.textdiv{
+    margin: 20px;   
+}
+.inputbox{
+    padding-left: 60px;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 300px;
+    height: 40px;
+    font-family: 'Libre Baskerville', serif;
+}
+.button1{
+    border-radius: 30px;
+    height: 40px;
+    width: 100px;
+    font-family: 'Roboto Mono', monospace;
+}
+.button1:hover{
+background-color:#65647C;
+}
+.resultbox{
+    padding-left: 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 300px;
+    height: 40px;
+    font-family: 'Libre Baskerville', serif;
+
+}
+.resultbutton{
+    border-radius: 30px;
+    height: 40px;
+    width: 100px;
+    font-family: 'Roboto Mono', monospace;
+}
+.resultbutton:hover{
+    background-color:#65647C;
+    }
+.clearbutton{
+    border-radius: 30px;
+    height: 40px;
+    width: 100px;
+    font-family: 'Roboto Mono', monospace;
+    margin: 20px;
+}
+.clearbutton:hover{
+    background-color:#65647C;
+    }
+
+@media screen and (max-width: 720px) {
+    .container{
+        height: 800px;
+        width: 350px;
+    }
+    .inputbox{
+        padding-left: 30px; 
+        width: 200px;
+        font-size: 15px;
+       
+    }
+    .button1{
+        width: 70px;
+    }
+    .resultbutton{
+        width: 80px;
+    }
+    .resultbox{
+        padding-left: 30px; 
+        width: 150px;
+        font-size: 20px; 
+    }
+    h1{
+        font-size: 30px;
+    }
+  
+    }
