@@ -8,4 +8,4 @@
   <li>Then click on RESULT button and then the result will be shown in result text box.</li>
   <li>After Checking the Result click on CLEAR button in order to refresh the page so that another calculation can also be done.</li> 
 </ol>
-<p><a href="https://devfaseeh.github.io/GPA-Calculator/">CLICK HERE</a>to view</p>
+<p><a href="https://MuhammadFASEEH2002.github.io/GPA-Calculator/">CLICK HERE</a>to view</p>
